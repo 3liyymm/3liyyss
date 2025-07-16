@@ -1,83 +1,64 @@
-{
-    "token": "",
-    "clientId": "",
-    "mmban": "",
-    "mmbanLogs": "",
-    "guildId": "",
+
+    "clientId": "1394885926869663774",
+    "mmban": "1382492267075604520",
+    "mmbanLogs": "1340427007359582359",
+    "guildId": "1333004910513623112",
     "topTraderRoleId": "",
-	"leaderboardChannelId": "",
-	"transcriptLogChannelId": "",
-    "serverModLogChannelId": "",
+    "leaderboardChannelId": "1390322084223258685",
+    "transcriptLogChannelId": "1340993316946182266",
+    "serverModLogChannelId": "1340427007359582359",
     "muteRoleId": "",
     "backupServerId": "",
     "traderLeaderboardChannelId": "",
     "backupServerInviteLink": "",
-    "ticketPanelChannelId": "",
+    "ticketPanelChannelId": "1341413655459135518",
     "prefix": "$",
     "roles": {
-        "trialMM": "",
-        "beginnerMM": "",
-        "middleman": "",
-        "seniorMM": "",
-        "supremeMM": "",
-        "headMM": "",
-        "administrator": "",
+        "trialMM": "1378736140349210705",
+        "beginnerMM": "1378736143629160541",
+        "noviceMM": "1394761899530391592",
+        "expertMM": "1378736156518256650",
+        "headMM": "1378736147307429898",
         "newAccountRoleId": "",
         "staffRoles": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "1378736140349210705",
+            "1378736143629160541",
+            "1394761899530391592",
+            "1378736156518256650",
+            "1378736147307429898"
         ]
     },
     "mmTiers": {
         "trial": {
-            "name": "Trial Middleman - Trade Below $32/9k Robux",
+            "name": "Trial Middleman - Trade Below $20/5k Robux",
             "value": "trial_mm",
-            "pingRoles": ["trialMM", "beginnerMM", "middleman", "seniorMM", "supremeMM", "headMM", "administrator"]
+            "pingRoles": ["trialMM", "beginnerMM", "noviceMM", "expertMM", "headMM"]
         },
         "beginner": {
-            "name": "Beginner Middleman - Trade Between $32-$55/9k-16k Robux",
+            "name": "Beginner Middleman - Trade Between $20-$50/5k-13k Robux",
             "value": "beginner_mm",
-            "pingRoles": ["beginnerMM", "middleman", "seniorMM", "supremeMM", "headMM", "administrator"]
+            "pingRoles": ["beginnerMM", "noviceMM", "expertMM", "headMM"]
         },
         "middleman_tier": {
-            "name": "Middleman - Trade Between $55-$90/16k-25k Robux",
+            "name": "Novice Middleman - Trade Between $50-$70/13k-18k Robux",
             "value": "middleman_tier_mm",
-            "pingRoles": ["middleman", "seniorMM", "supremeMM", "headMM", "administrator"]
+            "pingRoles": ["noviceMM", "expertMM", "headMM"]
         },
         "senior": {
-            "name": "Senior Middleman - Trade Between $90-$165/25k-50k Robux",
+            "name": "Expert Middleman - Trade Between $70-$100/18k-25k Robux",
             "value": "senior_mm",
-            "pingRoles": ["seniorMM", "supremeMM", "headMM", "administrator"]
+            "pingRoles": ["expertMM", "headMM"]
         },
         "supreme": {
-            "name": "Valor Middleman - Trade Between $165-$285/50k-75k Robux",
+            "name": "Head Middleman - No Limit",
             "value": "supreme_mm",
-            "pingRoles": ["supremeMM", "headMM", "administrator"]
-        },
-        "head": {
-            "name": "Head Middleman - Trade Between $285-$500/75k-140k Robux",
-            "value": "head_mm",
-            "pingRoles": ["headMM", "administrator"]
-        },
-        "admin": {
-            "name": "Management - Trades Over $500+",
-            "value": "admin_mm",
-            "pingRoles": ["administrator"]
+            "pingRoles": ["headMM"]
         }
-	},
+    },
     "newAccountAgeDays": 7,
-	"welcomeChannelId": "",
+    "welcomeChannelId": "",
     "welcomeMessage": "Welcome {user} to **{guild}**! We hope you enjoy your stay.",
     "autoRoleIDs": [
         "",
         "",
         ""
-    ]
-}
-
-
